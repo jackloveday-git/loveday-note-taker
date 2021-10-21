@@ -2,8 +2,8 @@
 
 // Import dependencies
 const express = require("express");
-const html = require("./api/html");
-const api = require("./api/api");
+const html = require("./routes/html");
+const api = require("./routes/api");
 
 // Setup Express Server
 const app = express();
